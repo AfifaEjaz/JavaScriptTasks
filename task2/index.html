@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <script>
+        var FamilyMembers = +prompt("How many members are there in your family");
+        var methods = +prompt("Select Fitrah Method: \n 1.Wheat \n 2.Dates \n 3.Barley\n 4.Rasins")
+
+        var Wheat = 250 * FamilyMembers;
+        var Dates = 2100 * FamilyMembers;
+        var Barley = 450 * FamilyMembers;
+        var Rasins = 2800 * FamilyMembers;
+
+       if(methods == 1)
+       {   
+        alert("The total fitrah amount of your family is: " + Wheat);
+       }
+       else if(methods == 2)
+       {
+        alert("The total fitrah amount of your family is: " + Dates);
+       }
+       else if (methods == 3)
+       {
+        alert("The total fitrah amount of your family is: " + Barley);
+       }
+       else
+       {
+        alert("The total fitrah amount of your family is: " + Rasins)
+
+       }
+
+
+    </script>
+</body>
+</html>

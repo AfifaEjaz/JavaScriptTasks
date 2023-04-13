@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+
+<body>
+    <script>
+        // Creating empty stacks
+        var ContactNumbers = []
+        var ContactNames = []
+
+        // asking user to enter names and numbers using prompt and pushing it into their respective arrays
+
+        // stored ate location 0
+        ContactNames.push(prompt("Enter Contact Name"));
+        ContactNumbers.push(+prompt("Enter Contact Number"));
+        // Stored at location 1
+        ContactNames.push(prompt("Enter Contact Name"));
+        ContactNumbers.push(+prompt("Enter Contact Number"));
+
+        //Stored at location 2
+        ContactNames.push(prompt("Enter Contact Name"));
+        ContactNumbers.push(+prompt("Enter Contact Number"));
+
+        // Displaying names and numbers using alert 
+        alert("Name: " + ContactNames[0] + " | Number: " + ContactNumbers[0]
+            + "\nName: " + ContactNames[1] + " | Number: " + ContactNumbers[1]
+            + "\nName: " + ContactNames[2] + " | Number: " + ContactNumbers[2])
+
+    </script>
+</body>
+
+</html>
